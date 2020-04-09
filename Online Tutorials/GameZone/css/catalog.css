@@ -1,0 +1,221 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+
+/* Reset Styles */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Global */
+
+.wrapper{
+    width: 100%;
+    background: rgb(35, 35, 36);
+    
+}
+header{
+    width: 100%;    
+    background-color: black;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    height: 5vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.wrap{
+    width: 80%;
+    margin: 0 auto;
+}
+main{
+    width: 100%;
+}
+/* HEADER */
+
+header > div{
+    display: inline-block;
+    width: 40%;
+}
+.logo{
+    font-family: Permanent Marker;
+    font-weight: 900;
+    color: red;
+    font-size: 2em;;
+    padding-left: 25%;
+}
+.main-menu{
+    text-align: right;
+}
+.main-menu li{
+    display: inline;
+    margin: 0 5%;
+}
+.main-menu li a{
+    text-decoration: none;
+    color: red;
+    font-size: 1.5em;
+    font-family: Permanent Marker;
+}
+
+.main-menu li a:hover{
+    color: wheat;
+    font-size: 1.5em;;
+    text-decoration: none;
+    border-bottom: 1px solid red;
+}
+/* Main Section */
+main h1{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 7% 0 0 0;
+    color: white;
+    font-family: Permanent Marker;
+    font-size: 3em;
+}
+main h3{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1% 0 0 0;
+    font-family: Permanent Marker;
+    font-size: 1,8em;
+    color: red;
+}
+.articles{
+  margin: 4% 0 0 0;
+}
+section > article{
+    display: inline-block;
+    width: 29%;
+    border: 1px solid rgb(255, 0, 0);
+    -webkit-box-shadow: -3px 1px 42px -1px red;
+    -moz-box-shadow: -3px 1px 42px -1px red;
+    box-shadow: -3px 1px 42px -1px red;
+    margin: 1%;
+}
+section > article > h2 {
+    text-align: center;
+    font-family: Permanent Marker;
+    color: white;
+}
+article > figure {
+    width: 100%;
+}
+article > figure > img {
+    width: 100%;
+}
+article > p{
+    color: white;
+    padding: 0 5%;
+}
+/* Footer */
+footer{
+    background: black;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    margin: 5% 0 0 0;
+}
+footer p:first-of-type{
+    float: left;
+    vertical-align: middle;
+    font-family: Permanent Marker;
+    font-weight: 900;
+    color: red;
+    font-size: 2em;
+}
+footer p:last-of-type{
+    float: right;
+    color: red;
+}
+/* Responsive */
+
+/*SmarthPhone*/
+@media screen and (max-width:640px){
+    header{
+        position: static;
+    }
+    header > div{
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+    header > div span.logo{
+        font-size: 2em;
+        padding: 0;
+    }
+    nav > ul > li a{
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .wrap{
+        width: 90%;
+    }
+    section.info{
+        padding-top: 60%;
+        padding-bottom: 20%;  
+    }
+    section > article{
+        display: block;
+        width: 100%;
+        margin: 5% 0 5% 0;;
+    }
+    section.info > h1{
+        color: white    ;
+    }
+    footer p:first-of-type{
+        font-size: 1em;
+    }
+    footer p:last-of-type{
+        font-size: 0.6em;
+    }
+}
+/*Tablets*/
+@media screen and (min-width:641px) and (max-width:1136px){
+    .wrap{
+        width: 90%;
+    }
+    .slide-1-text p{
+        font-size: 1.5em;
+        padding-top: 10%;
+        padding-bottom: 5%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .slide-1-text h2{
+        font-size: 1.5em;
+        padding-top: 10%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    footer p:first-of-type{
+        font-size: 1.2em;
+    }
+    footer p:last-of-type{
+        font-size: 1em;
+    }
+    .menu{
+        display: inline-block;
+        width: 58%;
+        text-align: center;
+        margin: 0 auto;
+    }
+.main-menu li {
+    display: inline;
+    margin: 0 2%;
+    }
+    section>article>h2{
+        font-size: 1.3em;
+    }
+    section > article{
+        display: inline-block;
+        width: 45%; 
+        margin: 5% 2% 5% 2%;;
+    }
+}   
