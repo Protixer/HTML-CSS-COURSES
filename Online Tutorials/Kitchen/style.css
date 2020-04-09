@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lato',sans-serif;
+    font-size: 14px;
+    margin: 0 auto;
+    background: url("img/dark-wood.jpg");
+    background-size: cover;
+}
+header{
+    height: 120px;
+    line-height: 120px;
+    background: url("img/header-page.jpg");
+    background-size: cover;
+    width: 1024px;
+    margin: 0 auto;
+}
+header h1{
+    float: right;
+    font-size: 30px;
+    padding-right: 10px;
+}
+nav{
+    margin: 5px auto 0px ;
+    background: url("img/header-page.jpg");
+    background-size: cover;
+    width: 1024px;
+    height: 35px;
+}
+nav ul li{
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    padding-left: 30px;
+    font-size: 18px;
+}
+nav ul li a{
+    text-transform: none;
+    text-decoration: none;
+    color: #ffffff;
+}
+nav ul li a:hover{
+    cursor: pointer;
+    color: black;
+}
+main{
+    width: 1024px;
+    height: 685px;
+    margin: 5px auto 0 auto;
+    background: #ffffff;
+}
+.courses{
+    margin: auto;
+    width: 65%;
+    float: left;
+    padding: 5px;
+    height: 99%;
+}
+article {
+    display: block;
+    height: 40%;
+    margin: 20px auto auto 20px;
+}
+article figure{
+    float: left;
+    width: 300px;
+    height: 230px;
+    border: 1px dotted grey;
+}
+article img{
+    margin: 5px;
+}
+article p{
+    text-align: center;
+    padding-top: 5px;
+    color: lightslategray;
+}
+article div{
+    text-align: center;
+}
+article > div > h2{
+    font-size: 28px;
+    color: grey;
+}
+article > div > h3{
+    font-size: 20px;
+    color: darkgoldenrod;
+    padding: 5px 0;
+}
+aside{
+    float: right;
+    width: 30%;
+    height: 100%;
+    border-left: 1px dotted grey;
+    padding-left: 15px;
+}
+.popular-recipes{
+    width: 80%;
+}
+section > h2{
+    font-size: 28px;
+    margin: 30px auto;
+    color: deeppink;
+}
+section > ul{
+    margin-left: 10px;
+}
+section > ul > li{
+    list-style-type: none;
+    margin: 30px 0;
+    border-bottom: 1px dotted grey ;
+}
+section > ul > li > a{
+    color: hotpink;
+    text-decoration: none;
+    text-transform: none;
+}
+footer{
+    margin: 5px auto 0px;
+    font-weight: bolder;
+    background: grey;
+    text-align: center;
+}
