@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Lato,sans-serif;
+    font-size: 16px;
+    color: #333333;
+}
+header{
+    width: 100%;
+    background: #06518e;
+}
+nav{
+ padding: 30px;
+ height: 200px;
+}
+nav img{
+    float: left;
+}
+nav ul {
+    float: right;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 5px;
+    padding: 15px;
+}
+nav ul li a{
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-size: 50px;
+    margin: 20px 0;
+}
+.header-subtitle{
+    color: #0a2949;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 28px 0;
+}
+#button-container{
+  text-align: center;
+    margin: 50px;
+}
+header ul.header-services{
+    width: 1024px;
+    margin: 0 auto;
+    text-align: center;
+}
+header ul.header-services li{
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+    margin: 30px 21px;
+    padding: 20px 20px;
+    color: white;
+}
+header ul.header-services li:hover{
+    background: #5DBCD2;
+    color: white;
+}
+.cta-btn {
+    border-radius: 25px;
+    border: 1px solid #5DBCD2;
+    background: #5DBCD2;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+}
+.service-intro{
+    text-align: left;
+    padding: 20px 0;
+    vertical-align: top;
+    margin: 20px 0;
+}
+.service-link{
+    margin-top: 20px;
+    content: '';
+    display: block;
+    clear: both;
+    text-align: left;
+}
