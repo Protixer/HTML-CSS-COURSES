@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Chrome" type="ChromiumRemoteDebugType" factoryName="Chromium Remote" port="8090">
+    <method>
+      <option name="LaunchBrowser.Before.Run" url="index.html" />
+    </method>
+  </configuration>
+</component>
