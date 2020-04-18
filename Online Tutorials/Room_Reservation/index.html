@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Room Reservation</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <form>
+        <header>
+            <div class="background-header">
+                <h1>Room Reservation</h1>
+            </div>
+            <div class="info">
+                <div class="text-l">
+                    <h3>Basic Information</h3>
+                    <p class="basic-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at ribh varius odio sollucitudin nec eu elit.Suspendisse ac
+                    risus nunc, quis elementum lorem.Pellentesque vehicula egestas eros nec commodo.</p>
+                </div>
+                <div class="text-r">
+                    <label for="search">Search</label>
+                    <input type="search" id="search" name="search"><i class="fa fa-search"></i>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="main-div-l">
+                <label> Personal Details</label>
+                <input type="text" id="first-name" name="first-name" placeholder="First Name">
+                <input type="text" id="last-name" name="second-name" placeholder="Last Name">
+                <input type="email" id="email" name="email" placeholder="Enter email">
+            </div>
+            <div class="main-div-r">
+                <h3>Request a reservation</h3>
+                <label for="room">
+                    Select a Room
+                    <select id="room" name="room">
+                        <option value="1">Room 1</option>
+                        <option value="2">Room 2</option>
+                        <option value="3" selected="selected">Room 3</option>
+                        <option value="4">Room 4</option>
+                    </select>
+                </label>
+            </div>
+        </main>
+    </form>
+</body>
+</html>
